@@ -1,0 +1,141 @@
+@use "../abstracts";
+
+%flexItemCenter {
+    display: flex;
+    align-items: center;
+}
+
+%underline {
+    -webkit-text-decoration: var(--text-color-hover) solid underline;
+    text-decoration: var(--text-color-hover) solid underline;
+    -webkit-text-underline-position: under;
+    text-underline-position: under;
+}
+
+// Dish
+.dish {
+    position: relative;
+    margin-top: 187px;
+
+    @include abstracts.screen(md) {
+        margin-top: 70px;
+    }
+
+    &__flower {
+        position: absolute;
+        top: -3px;
+        left: 203px;
+        rotate: 180deg;
+        z-index: -1;
+
+        @include abstracts.screen(xl) {
+            left: 100px;
+        }
+    }
+
+    &__content {
+        @extend %flexItemCenter;
+
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+
+    &__title {
+        font-weight: 500;
+        font-size: 6.4rem;
+        line-height: 1.15;
+        text-transform: capitalize;
+
+        &--large {
+            font-size: 9.8rem;
+
+            @include abstracts.screen(md) {
+                font-size: 5.3rem;
+            }
+        }
+
+        @include abstracts.screen(md) {
+            font-size: 3.4rem;
+        }
+    }
+
+    &__desc {
+        width: 51%;
+        margin-top: 20px;
+        text-align: center;
+        line-height: 1.62;
+
+        @include abstracts.screen(md) {
+            margin-top: 14px;
+            font-size: 1.4rem;
+        }
+    }
+
+    &-card {
+        &__img {
+            display: block;
+            height: 300px;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        &__wrap {
+            @extend %flexItemCenter;
+
+            justify-content: space-between;
+            margin-top: 16px;
+        }
+
+        &__name,
+        &__price {
+            font-weight: 500;
+            font-size: 2.4rem;
+            line-height: 1.42;
+        }
+
+        &__desc {
+            margin-top: 6px;
+            line-height: 1.62;
+        }
+
+        &__oder {
+            @extend %flexItemCenter;
+
+            justify-content: space-between;
+            margin-top: 16px;
+            line-height: 1.62;
+        }
+
+        &__link {
+            @extend %underline;
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+
+        &__stars {
+            display: flex;
+            gap: 6px;
+        }
+    }
+
+    &__all {
+        @extend %flexItemCenter;
+        @extend %underline;
+
+        justify-content: center;
+        gap: 13px;
+        margin-top: 30px;
+
+        color: var(--text-color-hover);
+
+        &:hover {
+            opacity: 0.8;
+        }
+
+        @include abstracts.screen(xl) {
+            margin-top: 50px;
+        }
+    }
+}

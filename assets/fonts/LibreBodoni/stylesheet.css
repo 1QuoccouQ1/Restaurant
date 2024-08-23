@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'Libre Bodoni';
+    src: url('LibreBodoni-Regular.woff2') format('woff2'),
+        url('LibreBodoni-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Bodoni';
+    src: url('LibreBodoni-Italic.woff2') format('woff2'),
+        url('LibreBodoni-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Bodoni';
+    src: url('LibreBodoni-Italic.woff2') format('woff2'),
+        url('LibreBodoni-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Bodoni';
+    src: url('LibreBodoni-Medium.woff2') format('woff2'),
+        url('LibreBodoni-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Bodoni';
+    src: url('LibreBodoni-Bold.woff2') format('woff2'),
+        url('LibreBodoni-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Bodoni';
+    src: url('LibreBodoni-BoldItalic.woff2') format('woff2'),
+        url('LibreBodoni-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Bodoni';
+    src: url('LibreBodoni-Regular.woff2') format('woff2'),
+        url('LibreBodoni-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Bodoni';
+    src: url('LibreBodoni-SemiBold.woff2') format('woff2'),
+        url('LibreBodoni-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Bodoni';
+    src: url('LibreBodoni-MediumItalic.woff2') format('woff2'),
+        url('LibreBodoni-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Bodoni';
+    src: url('LibreBodoni-SemiBoldItalic.woff2') format('woff2'),
+        url('LibreBodoni-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Bodoni';
+    src: url('LibreBodoni-Italic.woff2') format('woff2'),
+        url('LibreBodoni-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Bodoni';
+    src: url('LibreBodoni-Italic.woff2') format('woff2'),
+        url('LibreBodoni-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Bodoni';
+    src: url('LibreBodoni-BoldItalic.woff2') format('woff2'),
+        url('LibreBodoni-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Bodoni';
+    src: url('LibreBodoni-Medium.woff2') format('woff2'),
+        url('LibreBodoni-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Bodoni';
+    src: url('LibreBodoni-Bold.woff2') format('woff2'),
+        url('LibreBodoni-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Bodoni';
+    src: url('LibreBodoni-SemiBold.woff2') format('woff2'),
+        url('LibreBodoni-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Bodoni';
+    src: url('LibreBodoni-Regular.woff2') format('woff2'),
+        url('LibreBodoni-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Bodoni';
+    src: url('LibreBodoni-SemiBoldItalic.woff2') format('woff2'),
+        url('LibreBodoni-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Bodoni';
+    src: url('LibreBodoni-MediumItalic.woff2') format('woff2'),
+        url('LibreBodoni-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Bodoni';
+    src: url('LibreBodoni-Regular.woff2') format('woff2'),
+        url('LibreBodoni-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

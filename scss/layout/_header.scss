@@ -1,0 +1,66 @@
+@use "../abstracts";
+
+%flexItemCenter {
+    display: flex;
+    align-items: center;
+}
+
+%underline {
+    -webkit-text-decoration: var(--text-color-second) solid underline;
+    text-decoration: var(--text-color-second) solid underline;
+    -webkit-text-underline-position: under;
+    text-underline-position: under;
+}
+
+.header {
+    padding-top: 30px;
+
+    &__inner {
+        @extend %flexItemCenter;
+        justify-content: space-between;
+    }
+
+    &-right {
+        @extend %flexItemCenter;
+        gap: 28px;
+
+        &__times,
+        &__link {
+            line-height: 1.62;
+        }
+
+        &__link:hover {
+            @extend %underline;
+        }
+    }
+
+    &__logo {
+        display: block;
+
+        @include abstracts.screen(md) {
+            position: relative;
+            top: 0;
+            left: 90px;
+        }
+
+        @include abstracts.screen(md) {
+            left: 30px;
+        }
+    }
+}
+
+.navbar {
+    &__list {
+        @extend %flexItemCenter;
+        gap: 34px;
+    }
+
+    &__link {
+        line-height: 1.62;
+        transition: 0.25s;
+
+        &:hover {
+            color: var(--text-color-hover);
+        }
+    }
+}

@@ -1,0 +1,132 @@
+@use "../abstracts";
+
+%flexItemCenter {
+    display: flex;
+    align-items: center;
+}
+
+// Menu
+.menu {
+    margin-top: 150px;
+
+    @include abstracts.screen(lg) {
+        margin-top: 70px;
+    }
+
+    &__content {
+        @extend %flexItemCenter;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    &__sub-title {
+        line-height: 1.62;
+    }
+
+    &__title {
+        margin-top: 10px;
+        font-size: 6.4rem;
+        font-weight: 500;
+        line-height: 1.15;
+    }
+
+    &__desc {
+        width: 51%;
+        margin-top: 20px;
+        line-height: 1.62;
+
+        @include abstracts.screen(md) {
+            width: 70%;
+        }
+
+        @include abstracts.screen(sm) {
+            width: 100%;
+        }
+    }
+
+    &-container {
+        margin-top: 60px;
+
+        @include abstracts.screen(lg) {
+            margin-top: 40px;
+        }
+    }
+}
+
+.menu-tab {
+    &__list {
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+        margin-bottom: 30px;
+
+        @include abstracts.screen(md) {
+            flex-direction: column;
+        }
+
+        &--inner {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+        }
+    }
+
+    &__item {
+        font-family: "Libre Bodoni", sans-serif;
+        font-weight: 500;
+        font-size: 3rem;
+        line-height: 1.33;
+        cursor: pointer;
+
+        &--active {
+            color: var(--text-color-hover);
+            cursor: default;
+        }
+    }
+
+    &__content {
+        margin-top: 30px;
+        display: none;
+
+        &--active {
+            display: block;
+        }
+    }
+}
+
+.menu-wrap {
+    @extend %flexItemCenter;
+    justify-content: space-between;
+
+    &__left {
+        @extend %flexItemCenter;
+        gap: 20px;
+
+        @include abstracts.screen(lg) {
+            gap: 16px;
+        }
+    }
+
+    &__img {
+        width: 76px;
+        height: 76px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    &__name,
+    &__price {
+        font-weight: 500;
+        font-size: 3rem;
+        line-height: 1.33;
+
+        @include abstracts.screen(lg) {
+            font-size: 2.2rem;
+        }
+    }
+
+    &__name {
+        width: 60%;
+    }
+}
